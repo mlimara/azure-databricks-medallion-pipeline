@@ -1,6 +1,7 @@
 **Building a Seed Distributor Data Platform**
 
 #Project Description
+
 The Seed Distributor business is moving away from an old, manual system full of dirty data. With over 5 million addresses and 22 million orders, the old system cannot process data fast enough. To fix this, I built an automated Big Data pipeline using Azure Databricks. This creates a clean data foundation for fast, real-time analytics.
 *Customer KPIs (Loyalty & Value)*: Tracks individual purchasing behavior—including total lifetime value and coupon usage—to help the marketing team identify and reward our most profitable VIP customers.
 *Monthly KPIs (Business Growth)*: Provides a time-series view of order volumes and revenue trends month-over-month, giving executives a clear, high-level picture of overall business growth.
