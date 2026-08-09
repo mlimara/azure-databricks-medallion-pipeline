@@ -1,0 +1,12 @@
+# Ignore data files
+*.csv
+*.parquet
+*.json
+/data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Mac system files (if you use a Mac)
+.DS_Store
