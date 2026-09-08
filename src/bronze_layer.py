@@ -30,8 +30,6 @@ def upsert_to_delta(df, table_path, primary_key):
 from pyspark.sql.functions import sum
 from delta.tables import DeltaTable
 
-sas_token = "sp=racwdlmeop&st=2026-03-19T11:05:46Z&se=2026-09-05T18:20:46Z&sv=2024-11-04&sr=c&sig=IU5Y4Vd8%2Fj%2FO%2FK1KVfJCGGeGUIvjfQsjq8yZ6Rb8cN0%3D"
-spark.conf.set("fs.azure.sas.imp-data.imptestwesteurope.blob.core.windows.net", sas_token)
 path = "abfss://imp-data@imptestwesteurope.dfs.core.windows.net/data/raw_data/"
 bronze_path = "abfss://imp-data@imptestwesteurope.dfs.core.windows.net/data/Team_C/lemara_mukhamedyarova/bronze/"
 addresses = spark.read.parquet(path + "address")
