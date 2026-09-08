@@ -1,3 +1,4 @@
+<img width="1224" height="372" alt="dataflow drawio" src="https://github.com/user-attachments/assets/a86f1f62-991a-41cc-b234-0b417c32f6ae" />
 **Building a Seed Distributor Data Platform**
 
 ##Project Description
