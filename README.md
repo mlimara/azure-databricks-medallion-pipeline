@@ -1,4 +1,3 @@
-
 **Building a Seed Distributor Data Platform**
 
 ##Project Description
@@ -9,4 +8,5 @@ The Seed Distributor business is moving away from an old, manual system full of 
 *Product KPIs (Inventory Performance)*: Analyzes the catalog to show which specific seeds generate the most revenue and sell the highest volumes, directly guiding future inventory and sales decisions.
 *Regional KPIs (Logistics & Reach)*: Maps out order volumes by state and calculates average delivery speeds, helping the logistics team spot shipping bottlenecks and identify states with low market penetration.
 This project successfully replaced an old, failing system with a modern, automated data pipeline. One major insight was that using a Dead Letter Queue to quarantine bad data is much safer for the business than just deleting it. Also, doing the heavy math early in the Gold layer was essential to make our final dashboards load instantly.  Finally, now that our data is perfectly clean, we can start using it for Artificial Intelligence. We can train Machine Learning models to predict future inventory needs and stop customers from leaving.
+**Dataflow Diagram**
 <img width="1224" height="372" alt="dataflow drawio" src="https://github.com/user-attachments/assets/a86f1f62-991a-41cc-b234-0b417c32f6ae" />
